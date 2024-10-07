@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Stories</title>
+    <link rel="stylesheet" href="styles/stories.css">
+</head>
+<body>
+   <div id="preloader">
+      <div class="loader">
+          <img src="photos/Xtravellogo.png" alt="loading" class="logo"> 
+      </div>
+   </div>
+      <div class="stories1">
+       <div class="header">
+          <img src="photos/Xtravellogo.png" alt="loading" class="logo"> 
+          
+          <div class="buttons">
+              <button id="abtb">About</button>
+               <button id="stb">Stories</button>
+                <button id="blb">Blog</button>
+                 <button id="cob">Contact</button>
+                  <button id="exb">Explore</button>
+          </div>
+          
+        <nav>
+           <li onclick=showSidebar() class="menu"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="35px" viewBox="0 -960 960 960" width="35px" fill="#5f6368"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a>
+</li>
+             <ul class="sidebar">
+                 <li><a href="#">About</a></li>
+                 <li><a href="#">Stories</a></li>
+                 <li><a href="#">Blog</a></li>
+                 <li><a href="#">Contact</a></li>
+                 <li><a href="#">Explore</a></li>
+                 <li><a href="#"> <img src="photos/Xtravellogo.png" alt="loading" class="logo"> </a></li>
+                 <li onclick=hideSidebar() class="close"><a href=""><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a>
+</li>
+             </ul>
+         </nav>
+       </div>
+       
+       <h id="pgn">STORIES</h>
+       </div>
+       
+       <div class="stories2">
+            <div class="st2-con1">
+           <div class="st1">
+               <img src="photos/balhi.jpg" id="t1i" alt="">
+               <h>A Sunrise in Bali</h>
+               <p>
+                   The sky ignites with colors as the sun rises over Bali's serene beaches
+               </p>
+           </div>
+           <div class="st2">
+               <img src="photos/Venice.jpg" id="t2i" alt="">
+               <h>Lost in the Streets of Venice</h>
+               <p>
+                   Every turn in Venice feels like stepping into a painting.
+               </p>
+           </div>
+           <div class="st3">
+               <img src="photos/michu.jpg" id="t3i" alt="">
+               <h>Climbing the Heights of Machu Picchu</h>
+               <p>
+                   High above the clouds, an ancient wonder stands."
+               </p>
+           </div>
+           <div class="st4">
+               <img src="photos/Tokyo.jpg" id="t4i" alt="">
+               <h>An Unexpected Adventure in Tokyo</h>
+               <p>
+                   In Tokyo, tradition and modernity blend seamlessly in every corner.
+               </p>
+           </div>
+           </div>
+           
+            <div class="st2-con2">
+           <div class="st5">
+               <img src="photos/fjord.jpg" id="t5i" alt="">
+               <h>Sailing Through the Fjords of Norway</h>
+               <p>
+                   Silent waters reflect towering cliffs and cascading waterfalls.
+               </p>
+           </div>
+           <div class="st6">
+               <img src="photos/sahara.jpg" id="t6i" alt="">
+               <h>A Night Under the Sahara Stars</h>
+              <p>
+                   Endless sands by day, a blanket of stars by night.
+               </p>
+           </div>
+           <div class="st7">
+               <img src="photos/vietnam.jpg" id="t7i" alt="">
+               <h>Cycling Through the Rice Terraces of Vietnam</h>
+               <p>
+                   Rolling hills and emerald terraces stretch as far as the eye can see.
+               </p>
+           </div>
+           <div class="st8">
+               <img src="photos/red.jpg" id="t8i" alt="">
+               <h>A Walk Through Ancient Petra</h>
+               <p>
+                   Petra’s rose-red city, carved into stone, whispers tales of centuries past.
+               </p>
+           </div>
+           </div>
+       </div>
+       
+       <div class="stories3">
+           <div class="st3h">
+                <h id="st3h1">Let your voyage create new stories for you</h>
+           <h id="st3h2">Seek out the most interesting adventure</h>
+           <h id="st3h3">Take your time</h>
+           <h id="st3h4">Have all the fun the world offers</h>
+           </div>
+       </div>
+       
+       <div class="stories4">
+           <div class="st4a">
+               <div>
+                   <h>t</h>
+               </div>
+               <div>
+                   <h>r</h>
+               </div>
+               <div>
+                   <h>a</h>
+               </div>
+               <div>
+                   <h>v</h>
+               </div>
+               <div>
+                   <h>e</h>
+               </div>
+               <div>
+                   <h>l</h>
+               </div>
+           </div>
+       </div>
+       
+           <div class="travel-words">
+              <p id="tw1">Explore</p>
+              <p id="tw2">Journey</p>
+              <p id="tw3">Odyssey</p>
+              <p id="tw4">Discover</p>
+              <p id="tw5">Escape</p>
+              <p id="tw6">Wanderlust</p>
+              <p id="tw7">Adventure</p>
+              <p id="tw8">Voyage</p>
+              <p id="tw9">Roam</p>
+              <p id="tw10">Trek</p>
+              <p id="tw11">Traverse</p>
+          </div>
+          
+          <div class="last-div">
+              <p class="lad">copyright © 2024 Xtravel.inc</p><br>
+              <p class="lad">All Rights Reserved</p>
+          </div>
+</body>
+<script>
+    function showSidebar(){
+        const sidebar = document.querySelector('.sidebar')
+    sidebar.style.display = 'flex'
+    }
+    
+    function hideSidebar(){
+        const sidebar = document.querySelector('.sidebar')
+    sidebar.style.display = 'none'
+    }
+    
+    
+
+window.addEventListener('load', function() {
+    const preloader = document.getElementById('preloader');
+    
+
+    // Hide preloader after 2 seconds (or after your content is fully loaded)
+    setTimeout(() => {
+        preloader.style.display = 'none';
+        
+    }, 2000); // Adjust time as needed
+});
+</script>
+</html>
