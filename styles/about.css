@@ -1,4 +1,4 @@
-body{
+ body{
     margin: 0;
     padding: 0;
     font: poppins;
@@ -96,7 +96,7 @@ body{
     width: 100%;
     height: 30vh;
     background-color:skyblue;
-    background-image:url(/storage/emulated/0/Xender/folder/Travel website /photos/tt4.jpg);
+    background-image:url(https://github.com/SOUTH-X/Xtravel/blob/21df64ab7b9cd10d65bb8af73d08b0452f889fd2/photos/tt4.jpg?raw=true);
     background-repeat: no-repeat;
     background-blend-mode: multiply;
     background-size: cover;
@@ -184,7 +184,7 @@ body{
     .abt-2img{
         width: 450px;
         height: 650px;
-        background:url(https://github.com/SOUTH-X/Xtravel/blob/8ba24f3af64057b4285b07b671f3c9ec4181a4fe/photos/abt2a.jpg);
+        background:url(https://github.com/SOUTH-X/Xtravel/blob/8ba24f3af64057b4285b07b671f3c9ec4181a4fe/photos/abt2a.jpg?raw=true);
         background-repeat: no-repeat;
         background-size: cover;
         display: flex;
@@ -199,7 +199,7 @@ body{
     
     to{
         transform: scale(1,1);
-        background: url('https://github.com/SOUTH-X/Xtravel/blob/8ba24f3af64057b4285b07b671f3c9ec4181a4fe/photos/abt2b.jpg');
+        background: url('https://github.com/SOUTH-X/Xtravel/blob/8ba24f3af64057b4285b07b671f3c9ec4181a4fe/photos/abt2b.jpg?raw=true');
     }
 }
 
@@ -209,7 +209,7 @@ body{
         width:100%;
         height:35vh;
         background-color: skyblue;
-        background:url(https://github.com/SOUTH-X/Xtravel/blob/21a4d8d030bdcf30622514cebff93fd77729ed25/photos/travel1.jpg);
+        background:url(https://github.com/SOUTH-X/Xtravel/blob/21a4d8d030bdcf30622514cebff93fd77729ed25/photos/travel1.jpg?raw=true);
         background-repeat: no-repeat;
         background-size:cover;
         background-blend-mode:multiply;
