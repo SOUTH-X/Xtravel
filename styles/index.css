@@ -76,7 +76,7 @@ body{
     width: 100%;
     height: 150vh;
     background-color:skyblue;
-    background: url('https://github.com/SOUTH-X/Xtravel/blob/21df64ab7b9cd10d65bb8af73d08b0452f889fd2/photos/travel7.jpg');
+    background: url('https://github.com/SOUTH-X/Xtravel/blob/21df64ab7b9cd10d65bb8af73d08b0452f889fd2/photos/travel7.jpg?raw=true');
     background-repeat: no-repeat;
     background-blend-mode: multiply;
     background-size: cover;
@@ -86,21 +86,21 @@ body{
 
 @keyframes slide {
     25%{
-        background: url('https://github.com/SOUTH-X/Xtravel/blob/21df64ab7b9cd10d65bb8af73d08b0452f889fd2/photos/travel8.jpg');
+        background: url('https://github.com/SOUTH-X/Xtravel/blob/21df64ab7b9cd10d65bb8af73d08b0452f889fd2/photos/travel8.jpg?raw=true');
         background-repeat: no-repeat;
         background-size: cover;
         background-blend-mode: multiply;
     }
     
     50%{
-        background: url('https://github.com/SOUTH-X/Xtravel/blob/21df64ab7b9cd10d65bb8af73d08b0452f889fd2/photos/travel10.jpg');
+        background: url('https://github.com/SOUTH-X/Xtravel/blob/21df64ab7b9cd10d65bb8af73d08b0452f889fd2/photos/travel10.jpg?raw=true');
         background-repeat: no-repeat;
         background-size: cover;
         background-blend-mode: multiply;
     }
     
     100%{
-        background: url('https://github.com/SOUTH-X/Xtravel/blob/21df64ab7b9cd10d65bb8af73d08b0452f889fd2/photos/travel11.jpg');
+        background: url('https://github.com/SOUTH-X/Xtravel/blob/21df64ab7b9cd10d65bb8af73d08b0452f889fd2/photos/travel11.jpg?raw=true');
         background-repeat: no-repeat;
         background-size: cover;
         background-blend-mode: multiply;
@@ -175,63 +175,63 @@ body{
 }
 
 .travel3{
-    background: url(https://github.com/SOUTH-X/Xtravel/blob/8ba24f3af64057b4285b07b671f3c9ec4181a4fe/photos/travel2.jpg);
+    background: url(https://github.com/SOUTH-X/Xtravel/blob/8ba24f3af64057b4285b07b671f3c9ec4181a4fe/photos/travel2.jpg?raw=true);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
 .travel4{
-    background: url(https://github.com/SOUTH-X/Xtravel/blob/8ba24f3af64057b4285b07b671f3c9ec4181a4fe/photos/travel3.jpg);
+    background: url(https://github.com/SOUTH-X/Xtravel/blob/8ba24f3af64057b4285b07b671f3c9ec4181a4fe/photos/travel3.jpg?raw=true);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
 .travel5{
-    background: url(https://github.com/SOUTH-X/Xtravel/blob/8ba24f3af64057b4285b07b671f3c9ec4181a4fe/photos/travel4.jpg);
+    background: url(https://github.com/SOUTH-X/Xtravel/blob/8ba24f3af64057b4285b07b671f3c9ec4181a4fe/photos/travel4.jpg?raw=true);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
 .travel6{
-    background: url(https://github.com/SOUTH-X/Xtravel/blob/8ba24f3af64057b4285b07b671f3c9ec4181a4fe/photos/travel5.jpg);
+    background: url(https://github.com/SOUTH-X/Xtravel/blob/8ba24f3af64057b4285b07b671f3c9ec4181a4fe/photos/travel5.jpg?raw=true);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
 .travel7{
-    background: url(/storage/emulated/0/DCIM/100PINT/Pins/57fa08bfc5aeccdb413e2cd86c4708a1.jpg);
+    background: url(/storage/emulated/0/DCIM/100PINT/Pins/57fa08bfc5aeccdb413e2cd86c4708a1.jpg?raw=true);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
 .travel8{
-    background: url(/storage/emulated/0/DCIM/100PINT/Pins/11297a0d5e78301206c52cd44b60221b.jpg);
+    background: url(/storage/emulated/0/DCIM/100PINT/Pins/11297a0d5e78301206c52cd44b60221b.jpg?raw=true);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
 .travel9{
-    background: url(/storage/emulated/0/DCIM/100PINT/Pins/7daa68c29c35eadcfbca184757615f9b.jpg);
+    background: url(/storage/emulated/0/DCIM/100PINT/Pins/7daa68c29c35eadcfbca184757615f9b.jpg?raw=true);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
 .travel10{
-    background: url(/storage/emulated/0/DCIM/100PINT/Pins/41c7ff9610af3dadb4df711d78733718.jpg);
+    background: url(/storage/emulated/0/DCIM/100PINT/Pins/41c7ff9610af3dadb4df711d78733718.jpg?raw=true);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
 .travel11{
-    background: url(/storage/emulated/0/DCIM/100PINT/Pins/1c4191c5287d6cdc72a30dcefc095518.jpg);
+    background: url(/storage/emulated/0/DCIM/100PINT/Pins/1c4191c5287d6cdc72a30dcefc095518.jpg?raw=true);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -329,28 +329,28 @@ p{
 }
 
 .tt1{
-    background: url('https://github.com/SOUTH-X/Xtravel/blob/21df64ab7b9cd10d65bb8af73d08b0452f889fd2/photos/tt1.jpg');
+    background: url('https://github.com/SOUTH-X/Xtravel/blob/21df64ab7b9cd10d65bb8af73d08b0452f889fd2/photos/tt1.jpg?raw=true');
     background-size: cover;
     background-position: center bottom;
     
 }
 
 .tt2{
-    background: url('https://github.com/SOUTH-X/Xtravel/blob/21df64ab7b9cd10d65bb8af73d08b0452f889fd2/photos/tt2.jpg');
+    background: url('https://github.com/SOUTH-X/Xtravel/blob/21df64ab7b9cd10d65bb8af73d08b0452f889fd2/photos/tt2.jpg?raw=true');
     background-size: cover;
     background-position: center bottom;
     
 }
 
 .tt3{
-    background: url('https://github.com/SOUTH-X/Xtravel/blob/21df64ab7b9cd10d65bb8af73d08b0452f889fd2/photos/tt3.jpg');
+    background: url('https://github.com/SOUTH-X/Xtravel/blob/21df64ab7b9cd10d65bb8af73d08b0452f889fd2/photos/tt3.jpg?raw=true');
     background-size: cover;
     background-position: center bottom;
     
 }
 
 .tt4{
-    background: url('https://github.com/SOUTH-X/Xtravel/blob/21df64ab7b9cd10d65bb8af73d08b0452f889fd2/photos/tt4.jpg');
+    background: url('https://github.com/SOUTH-X/Xtravel/blob/21df64ab7b9cd10d65bb8af73d08b0452f889fd2/photos/tt4.jpg?raw=true');
     background-size: cover;
     background-position: center bottom;
     
@@ -358,28 +358,28 @@ p{
 
 .tt5{
    margin-left: 40px; 
-   background:url(https://github.com/SOUTH-X/Xtravel/blob/21df64ab7b9cd10d65bb8af73d08b0452f889fd2/photos/tt5.jpg) ;
+   background:url(https://github.com/SOUTH-X/Xtravel/blob/21df64ab7b9cd10d65bb8af73d08b0452f889fd2/photos/tt5.jpg?raw=true) ;
    background-size: cover;
     background-position: center bottom;
     
 }
 
 .tt6{
-    background: url('https://github.com/SOUTH-X/Xtravel/blob/21df64ab7b9cd10d65bb8af73d08b0452f889fd2/photos/tt6.jpg');
+    background: url('https://github.com/SOUTH-X/Xtravel/blob/21df64ab7b9cd10d65bb8af73d08b0452f889fd2/photos/tt6.jpg?raw=true');
     background-size: cover;
     background-position: center bottom;
     
 }
 
 .tt7{
-    background: url('https://github.com/SOUTH-X/Xtravel/blob/21df64ab7b9cd10d65bb8af73d08b0452f889fd2/photos/tt7.jpg');
+    background: url('https://github.com/SOUTH-X/Xtravel/blob/21df64ab7b9cd10d65bb8af73d08b0452f889fd2/photos/tt7.jpg?raw=true');
     background-size: cover;
     background-position: center bottom;
     
 }
 
 .tt8{
-    background: url('https://github.com/SOUTH-X/Xtravel/blob/21df64ab7b9cd10d65bb8af73d08b0452f889fd2/photos/tt8.jpg');
+    background: url('https://github.com/SOUTH-X/Xtravel/blob/21df64ab7b9cd10d65bb8af73d08b0452f889fd2/photos/tt8.jpg?raw=true');
     background-size: cover;
     background-position: center bottom;
     
@@ -404,7 +404,7 @@ h1, h2, h3, h4, h5, h6, h7, h8{
     display: flex;
     flex-direction: row;
     background-color:#FFA07A ;
-    background: url('https://github.com/SOUTH-X/Xtravel/blob/8ba24f3af64057b4285b07b671f3c9ec4181a4fe/photos/fa95986f2c408098531ca7cc78aee3a4.jpg');
+    background: url('https://github.com/SOUTH-X/Xtravel/blob/8ba24f3af64057b4285b07b671f3c9ec4181a4fe/photos/fa95986f2c408098531ca7cc78aee3a4.jpg?raw=true');
     background-blend-mode: multiply;
     background-repeat: no-repeat;
     background-size: cover;
