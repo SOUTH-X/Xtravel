@@ -1,0 +1,1527 @@
+body{
+    margin: 0;
+    padding: 0;
+    font: poppins;
+    box-sizing: border-box;
+    width: 1500px;
+    background: skyblue;
+}
+ 
+ #preloader {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+
+.loader {
+    border: 8px solid #f3f3f3;
+    border-top: 8px solid #3498db;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.logo{
+    width: 120px;
+    height: 100px;
+}
+
+.sidebar{
+        display: none;
+        flex-direction: column;
+        position: fixed;
+        top: 0;
+        right: 0;
+        height: 100vh;
+        width: 250px;
+        z-index: 999;
+        background-color: ghostwhite;
+        backface-visibility:blur(20px);
+        box-shadow: 10px 0 10px rgba(0,0,0,0.1);
+        align-items: flex-start;
+        justify-content: flex-start;
+        list-style: none;
+    }
+    
+    nav li{
+        height: 150px;
+    }
+    
+    nav a{
+        height: 100%;
+        padding: 0 30px;
+        text-decoration: none;
+        align-items: center;
+        color: black;
+    }
+    
+    .menu{
+       margin:30px auto;
+    }
+
+.travel1{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 150vh;
+    background-color:skyblue;
+    background: url('/storage/emulated/0/Xender/folder/Travel website /photos/st7.jpg');
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-position: center;
+    animation:slide 50s infinite ease-in alternate;
+}
+
+@keyframes slide {
+    25%{
+        background: url('/storage/emulated/0/DCIM/100PINT/Pins/65d67e4d89119d3777343197a2f37608.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-blend-mode: multiply;
+    }
+    
+    50%{
+        background: url('/storage/emulated/0/DCIM/100PINT/Pins/2bed5d7ce2ae46e027e2b7e6a9602eac.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-blend-mode: multiply;
+    }
+    
+    100%{
+        background: url('/storage/emulated/0/DCIM/100PINT/Pins/8cdaa2126af0a565c53171d947e5a2cf.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-blend-mode: multiply;
+    }
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 80px;
+    gap:250px;
+    position: fixed;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    flex-shrink: 0;
+    
+}
+
+#abtb, #stb, #blb, #cob, #exb{
+    width: 80px;
+    height: 50px;
+    margin-left: 30px;
+    margin-top: 20px;
+    background-color: #808000;
+    color: yellow;
+    cursor: pointer;
+}
+
+#abtb, #stb, #blb, #cob, #exb:hover {
+    transform: scale(100px, 80px);
+}
+
+
+.tslider{
+    overflow: hidden;    
+    justify-content: center;
+    z-index: 99;
+    width: 1300px;
+    height: 1200px;
+    margin: 150px 100px auto;
+    box-shadow: 3px 5px 5px 3px;
+    
+}
+
+.tsl-holder{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(10, 100%);
+    animation: slider 30s infinite ease-in-out alternate;
+}
+
+.travel2, .travel3, .travel4, .travel5, .travel6, .travel7, .travel8, .travel9, .travel10, .travel11{
+    display: flex;
+    width: 1300px;
+    height: 1200px;
+    visibility: visible;
+    padding: 80px 80px auto;
+    align-items: space-between;
+}
+
+.travel2{
+    background: url(/storage/emulated/0/DCIM/100PINT/Pins/250818c859a51df5c63b6484f3cc5306.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.travel3{
+    background: url(/storage/emulated/0/DCIM/100PINT/Pins/3d4f1c5effde5559b89f82f41140b3c9.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.travel4{
+    background: url(/storage/emulated/0/DCIM/100PINT/Pins/02aca064d8435324bde3d5a1faba2005.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.travel5{
+    background: url(/storage/emulated/0/DCIM/100PINT/Pins/595640707c0d205096972cf3fb6b2d40.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.travel6{
+    background: url(/storage/emulated/0/DCIM/100PINT/Pins/0365657f0900ab58d26916788ba85104.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.travel7{
+    background: url(/storage/emulated/0/DCIM/100PINT/Pins/57fa08bfc5aeccdb413e2cd86c4708a1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.travel8{
+    background: url(/storage/emulated/0/DCIM/100PINT/Pins/11297a0d5e78301206c52cd44b60221b.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.travel9{
+    background: url(/storage/emulated/0/DCIM/100PINT/Pins/7daa68c29c35eadcfbca184757615f9b.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.travel10{
+    background: url(/storage/emulated/0/DCIM/100PINT/Pins/41c7ff9610af3dadb4df711d78733718.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.travel11{
+    background: url(/storage/emulated/0/DCIM/100PINT/Pins/1c4191c5287d6cdc72a30dcefc095518.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+@keyframes slider {
+    0% {transform: translateX(0%);}
+    10%{
+    transform: translateX(-100%);}
+    20%{transform: translateX(-100%);}
+    30%{transform: translateX(-100%);}
+    40%{transform: translateX(-200%);}
+    50%{transform: translateX(-200%);}
+    60%{transform: translateX(-200%);}
+    70%{transform: translateX(-300%);}
+    80%{transform: translateX(-300%);}
+    90%{transform: translateX(0%);}
+    100%{transform: translateX(0%);}
+}
+
+  
+
+#t2, #t3, #t4, #t5, #t6, #t7, #t8, #t9, #t10, #t11{
+    font-family: Arial;
+    font-size: 80px;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    align-self: center;
+    color: #FFFFFF;
+}
+
+p{
+    font-size: 45px;
+    font-style: italic;
+    line-height: 42px;
+    display: flex;
+    align-self: center;
+    color: #F5F5DC;
+}
+
+.travel-tips{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    margin-top:1000px;
+    background:repeating-conic-gradient(darkblue, white);
+    width: 100%;
+    height: 1300px;
+}
+
+.tt-con1, .tt-con2{
+               display:flex;
+               flex-direction:row;
+               gap:40px;
+               margin-top:100px;
+               margin-left:30px;
+               width:100%;
+               height:650px;
+}
+
+
+.tt1{
+    margin-left: 40px;
+}
+
+.tt1, .tt2, .tt3, .tt4, .tt5, .tt6, .tt7, .tt8{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 400px;
+    border-radius: 14px;
+    margin-top: 45px;
+    animation: appear linear alternate;
+    animation-timeline: scroll();
+    animation-range:entry 0% cover 40%;
+    overflow: hidden;
+}
+
+@keyframes appear {
+    0%{
+        opacity: 0;
+        transform: scale(1,1);
+    }
+    
+    50%{
+        opacity: 0.5;
+        transform: scale(1.5,1.5);
+    }
+    
+    100%{
+        opacity: 1;
+        transform: scale(1,1);
+    }
+}
+
+.tt1{
+    background: url('/storage/emulated/0/DCIM/100PINT/Pins/6ab1c38bd2031e2ab1596b98844759c8.jpg');
+    background-size: cover;
+    background-position: center bottom;
+    
+}
+
+.tt2{
+    background: url('/storage/emulated/0/DCIM/100PINT/Pins/736f8e73aa812c84e8c66f331b9b9b86.jpg');
+    background-size: cover;
+    background-position: center bottom;
+    
+}
+
+.tt3{
+    background: url('/storage/emulated/0/DCIM/100PINT/Pins/9334df5e7529b234b910202d3e2330e0.jpg');
+    background-size: cover;
+    background-position: center bottom;
+    
+}
+
+.tt4{
+    background: url('/storage/emulated/0/DCIM/100PINT/Pins/77ea35ab4524848654a9fec392b530e1.jpg');
+    background-size: cover;
+    background-position: center bottom;
+    
+}
+
+.tt5{
+   margin-left: 40px; 
+   background:url(/storage/emulated/0/DCIM/100PINT/Pins/34f6f40e8e5eb94abed26bd6a46752ff.jpg) ;
+   background-size: cover;
+    background-position: center bottom;
+    
+}
+
+.tt6{
+    background: url('/storage/emulated/0/DCIM/100PINT/Pins/adfb4b3f4c533342b8388e95eef3b0d3.jpg');
+    background-size: cover;
+    background-position: center bottom;
+    
+}
+
+.tt7{
+    background: url('/storage/emulated/0/DCIM/100PINT/Pins/85b852fe429f4f17ed1bfd3a6de20a75.jpg');
+    background-size: cover;
+    background-position: center bottom;
+    
+}
+
+.tt8{
+    background: url('/storage/emulated/0/DCIM/100PINT/Pins/041940177dd1a8d18f287d1a9c81811b.jpg');
+    background-size: cover;
+    background-position: center bottom;
+    
+}
+
+section{
+    background-color:#008080 ;
+    width: 100%;
+    height: 90px;
+    margin-top: 315px;
+}
+
+h1, h2, h3, h4, h5, h6, h7, h8{
+    font-size: 25px;
+    font-weight: bold;
+    color: #87CEEB;
+    text-align: center;
+    margin: auto;
+}
+
+.travel-exp{
+    display: flex;
+    flex-direction: row;
+    background-color:#FFA07A ;
+    background: url('/storage/emulated/0/DCIM/100PINT/Pins/fa95986f2c408098531ca7cc78aee3a4.jpg');
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1300px;
+    height: 1000px;
+    margin: auto;
+    margin-top: 60px;
+    padding: auto;
+}
+
+.teh{
+    font-size: 70px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    margin-left: 570px;
+    color: #87CEEB;
+}
+
+
+.tet1, .tet2, .tet3, .tet4, .tet5, .tet6, .tet7, .tet8{
+    font-size: 30px;
+    font-weight: bold;
+    gap:40px;
+    line-height: 150px;
+    color: darkblue;
+    display: flex;
+    text-indent: 50px;
+    margin: auto;
+    animation: sliding 5s infinite linear alternate;
+}
+
+@keyframes sliding {
+    from{
+        transform: scaleX(1);
+    }
+    
+    to{
+        transform: scaleX(0.5);
+    }
+}
+
+.tet1{
+    margin-left: -850px;
+}
+
+
+ .dark{
+   background-color: black;
+   display:flex;
+   flex-direction:row;
+   justify-content:center;
+   margin-top:50px;
+   width:100%;
+   height: 300px;
+
+}
+
+.quote{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    
+}
+
+.bottom-class{
+                 display:grid;
+          grid-template-columns:1fr 1fr;
+          column-gap:60px;
+          row-gap:20px;
+          background-color:#228B22;
+          margin-top:50px;
+          width:1500px;
+          height:400px;
+}
+             
+.social-handle{
+                 display:inline-block;
+            height:250px;
+            width:450px;
+            margin-left:40px;
+            margin-top:30px;
+            padding-left:30px;
+              justify-content:center;
+              background-color:pink;
+} 
+             
+ .travel-words{
+                 display:flex;
+          flex-direction:row;
+          background: url('/storage/emulated/0/DCIM/100PINT/Pins/dd643c95c29702bdd4195d0b826b8a77.jpg');
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center center;
+          width: 100%;
+          height:280px;
+          align-items:space-between;
+          justify-content:space-between;
+          margin-top:40px;
+}
+
+#tw1, #tw2, #tw3, #tw4, #tw5, #tw6, #tw7, #tw8, #tw9, #tw10, #tw11{
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    animation: zoom 10s infinite linear alternate;
+}
+
+.last-div{
+    display: flex;
+    flex-direction: column;
+    padding: auto;
+    background-color: #E5D8B7;
+    margin-top: 30px;
+}
+
+.lad{
+    color:blueviolet;
+    }
+
+@keyframes zoom {
+    from{
+        transform: translateX(-300%);
+    }
+    
+    to{
+        margin-right: -30px;
+    }
+}  
+
+  @media all and (min-width:2560px) {
+      body{
+          width:100%;
+      }
+      
+      .tslider{
+         margin:90px auto;
+      }
+      
+      .travel-tips{
+         width: 2560px;
+      }
+      
+      .tt-con1, .tt-con2{
+         margin-left: 1100px;
+         width: 100%;
+      }
+      
+      .dark{
+         width: 2560px;
+      }
+      
+      .bottom-class{
+         width: 2560px;
+      }
+      
+      last-div{
+         width: 2560px;
+      }
+  }
+  
+  
+ 
+  
+    @media all and (min-width:1440px) {
+        body{
+            width:100%;
+        }
+        
+        .travel1{
+           height: 150vh;
+        }
+        
+        .tslider{
+           height: 150vh;
+           justify-content: center;
+           align-items: center;
+           padding: 20px auto;
+        }
+        
+        .tsl-holder{
+          margin: -230px auto;
+        }
+    }
+    
+    
+    
+    
+      @media all and (max-width:1024px) {
+          body{
+              width: 100%;
+          }
+          
+          .travel1{
+              width: 100%;
+          }
+          
+          .header{
+              width: 100%;
+          }
+          
+             .logo{
+                  width: 80px;
+                  height: 50px;
+                }
+                
+                
+          .tslider{
+    width: 80vw;
+    height: 150vh;
+    margin: 80px auto;
+}
+
+.tsl-holder{
+    width: 100%;
+    height: 100%;
+    }
+
+.travel2, .travel3, .travel4, .travel5, .travel6, .travel7, .travel8, .travel9, .travel10, .travel11{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+#t2, #t3, #t4, #t5, #t6, #t7, #t8, #t9, #t10, #t11{
+    font-size: 80px;
+}
+
+p{
+    font-size: 45px;
+}
+
+.travel-tips{
+    width: 100%;
+}
+
+.tt-con1{
+    margin: auto;
+}
+
+
+.tt1{
+    
+}
+
+.tt1, .tt2, .tt3, .tt4, .tt5, .tt6, .tt7, .tt8{
+    width: 300px;
+    height: 400px;
+    margin-top: 45px;
+    margin: auto;
+}
+
+
+section{
+    width: 100%;
+    height: 190px;
+}
+
+
+
+.travel-exp{
+    width: 100%;
+    height: 700px;
+    margin: auto;
+    margin-top: 60px;
+    padding: auto;
+}
+
+.teh{
+    margin-left: auto;
+}
+
+
+.tet1, .tet2, .tet3, .tet4, .tet5, .tet6, .tet7, .tet8{
+    font-size: 35px;
+    font-weight: bold;
+    gap:10px;
+    margin: auto;
+    }
+    
+    
+.tet1{
+    margin-left: -900px;
+}
+
+
+ .dark{
+   width:100%;
+   height: 300px;
+
+}
+
+.quote{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    
+}
+
+.bottom-class{
+          width:100%;
+          height: 400px;
+}
+             
+.social-handle{
+            display: flex;
+            flex-direction: column;
+            height:250px;
+            width:150px;
+            margin-left:40px;
+            margin-top:30px;
+} 
+
+.last-txt{
+    margin: auto;
+}
+
+a{
+    margin: auto;
+    font-size: 15px;
+    margin-left: auto;
+    margin-top: 40px;
+}
+
+.email{
+    display: flex;
+    flex-direction: column;
+}
+
+.emailtx{
+    font-size: 15px;
+}
+
+span{
+    font-size: 15px;
+    margin: auto;
+}
+             
+ .travel-words{
+          width: 100%;
+          }
+    
+          
+      }
+      
+      
+      
+      
+        @media all and (min-width:500px) and (max-width:768px){
+            body{
+                width: 100%;
+            }
+            
+            .buttons{
+    display: none;
+    
+}
+
+#abtb, #stb, #blb, #cob, #exb{
+       display:none;
+}
+    .travel1{
+        width: 100%;
+        height: 700px;
+    }
+    
+    .header{
+        width: 100%;
+    }
+    
+       .logo{
+                  width: 50px;
+                  height: 50px;
+                }
+                
+             
+                nav{
+                   display: flex;
+                   position: absolute;
+                   top: 5px;
+                   right: 40px;
+                   height: 100%;
+                }
+                
+                
+          .tslider{
+    width: 70vw;
+    height: 120vh;
+    margin: 140px 120px auto;
+}
+
+.tsl-holder{
+    width: 100%;
+    height: 100%;
+    }
+
+.travel2, .travel3, .travel4, .travel5, .travel6, .travel7, .travel8, .travel9, .travel10, .travel11{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+#t2, #t3, #t4, #t5, #t6, #t7, #t8, #t9, #t10, #t11{
+    font-size: 50px;
+}
+
+p{
+    font-size: 35px;
+}
+
+.travel-tips{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 3400px;
+    column-gap:5px;
+}
+
+.tt-con1, .tt-con2{
+               display:flex;
+               flex-direction:column;
+               width:500px;
+               height:1580px;
+               margin: 10px auto;
+        }
+        .tt-con2{
+            margin-top: -100px;
+        }
+
+.tt1{
+    
+}
+
+.tt1, .tt2, .tt3, .tt4, .tt5, .tt6, .tt7, .tt8{
+    width: 500px;
+    height: 1500px;
+    margin: auto;
+}
+
+
+section{
+    width: 100%;
+    height: 190px;
+}
+
+
+
+.travel-exp{
+    width: 100%;
+    height: 700px;
+    margin: auto;
+    margin-top: 60px;
+    padding: auto;
+    gap:5px;
+}
+
+.teh{
+    margin: 30px 300px auto;
+    display: flex;
+}
+
+
+.tet1, .tet2, .tet3, .tet4, .tet5, .tet6, .tet7, .tet8{
+    font-size: 25px;
+    font-weight: bold;
+    gap:5px;
+    margin: auto;
+    margin-bottom: -30px;
+    }
+    
+    
+.tet1{
+    margin-left: -900px;
+}
+
+
+ .dark{
+   width:100%;
+   height: 300px;
+
+}
+
+.quote{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    
+}
+
+.bottom-class{
+                 display: flex;
+                 flex-direction: column;
+          width:100%;
+          height: 400px;
+}
+             
+.social-handle{
+            display: flex;
+            flex-direction: column;
+            height:250px;
+            width:150px;
+            margin-left:40px;
+            margin-top:30px;
+} 
+
+.last-txt{
+    margin: auto;
+}
+
+a{
+    margin: auto;
+    font-size: 15px;
+    margin-left: auto;
+    margin-top: 40px;
+}
+
+.email{
+    display: flex;
+    flex-direction: column;
+}
+
+.emailtx{
+    font-size: 25px;
+}
+
+span{
+    font-size: 15px;
+    margin: auto;
+}
+             
+ .travel-words{
+          width: 100%;
+          height:100px;
+          }
+       
+
+#tw1, #tw2, #tw3, #tw4, #tw5, #tw6, #tw7, #tw8, #tw9, #tw10, #tw11{
+    font-size: 15px;
+}
+    }
+
+          
+          @media all and (max-width:435px) {
+             body{
+                width: 100%;
+             }
+             
+              .travel1{
+                  width: 100%;
+                  justify-content: center;
+                  align-items: center;
+              }
+              
+              .buttons{
+                display: none;
+    
+               }
+
+               #abtb, #stb, #blb, #cob, #exb{
+                   display:none;
+               }
+
+               .header{
+                   width: 100%;
+                   position: fixed;
+                   top:0px;
+                   left: 0px;
+               }
+
+               .logo{
+                  width: 50px;
+                  height: 50px;
+                }
+                
+                
+             .tslider{
+                width: 80vw;
+                height: 90vh;
+                margin: 50px auto;
+                visibility: visible;
+    
+               }
+
+            .tsl-holder{
+                width: 100%;
+                height: 100%;
+                }
+
+.travel2, .travel3, .travel4, .travel5, .travel6, .travel7, .travel8, .travel9, .travel10, .travel11{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+#t2, #t3, #t4, #t5, #t6, #t7, #t8, #t9, #t10, #t11{
+    font-size: 30px;
+}
+
+p{
+    font-size: 15px;
+}
+
+            .travel-tips{
+               display: flex;
+               flex-direction: column;
+               width: 100%;
+               height: 3400px;
+               column-gap:5px;
+               }
+
+.tt-con1, .tt-con2{
+               display:flex;
+               flex-direction:column;
+               width:300px;
+               height:1580px;
+               margin: 10px auto;
+        }
+        .tt-con2{
+            margin-top: -100px;
+        }
+
+.tt1{
+    
+}
+
+.tt1, .tt2, .tt3, .tt4, .tt5, .tt6, .tt7, .tt8{
+    width: 300px;
+    height: 1500px;
+    margin: auto;
+}
+
+
+section{
+    width: 100%;
+    height: 190px;
+}
+
+
+
+.travel-exp{
+    width: 100%;
+    height: 700px;
+    margin: auto;
+    margin-top: 60px;
+    padding: auto;
+}
+
+.teh{
+    margin-left: auto;
+}
+
+
+.tet1, .tet2, .tet3, .tet4, .tet5, .tet6, .tet7, .tet8{
+    font-size: 15px;
+    font-weight: bold;
+    gap:10px;
+    margin: auto;
+    }
+    
+    
+.tet1{
+    margin-left: -900px;
+}
+
+
+ .dark{
+   width:100%;
+   height: 300px;
+
+}
+
+.quote{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    
+}
+
+.bottom-class{
+                 display: flex;
+                 flex-direction: column;
+          width:100%;
+          height: 400px;
+}
+             
+.social-handle{
+            display: flex;
+            flex-direction: column;
+            height:250px;
+            width:150px;
+            margin-left:40px;
+            margin-top:30px;
+} 
+
+.last-txt{
+    margin: auto;
+}
+
+a{
+    margin: auto;
+    font-size: 15px;
+    margin-left: auto;
+    margin-top: 40px;
+}
+
+.email{
+    display: flex;
+    flex-direction: column;
+}
+
+.emailtx{
+    font-size: 5px;
+}
+
+span{
+    font-size: 5px;
+    margin: auto;
+}
+             
+ .travel-words{
+          width: 100%;
+          height:100px;
+          }
+       
+
+#tw1, #tw2, #tw3, #tw4, #tw5, #tw6, #tw7, #tw8, #tw9, #tw10, #tw11{
+    font-size: 5px;
+}
+          }
+          
+        
+        
+        
+        
+        
+          @media all and (min-width:375px) and (max-width:435.5px) {
+              body{
+                  width: 100%;
+              }
+              
+              .travel1{
+                  width: 100%;
+                  justify-content: center;
+                  align-items: center;
+              }
+              
+              .buttons{
+                display: none;
+    
+               }
+
+               #abtb, #stb, #blb, #cob, #exb{
+                   display:none;
+               }
+
+               .header{
+                   width: 100%;
+                   position: fixed;
+                   top:0px;
+                   left: 0px;
+               }
+
+               .logo{
+                  width: 50px;
+                  height: 50px;
+                }
+                
+                
+             .tslider{
+                width: 80vw;
+                height: 90vh;
+                margin: 50px auto;
+                visibility: visible;
+    
+               }
+
+            .tsl-holder{
+                width: 100%;
+                height: 100%;
+                }
+
+.travel2, .travel3, .travel4, .travel5, .travel6, .travel7, .travel8, .travel9, .travel10, .travel11{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+#t2, #t3, #t4, #t5, #t6, #t7, #t8, #t9, #t10, #t11{
+    font-size: 30px;
+}
+
+p{
+    font-size: 15px;
+}
+
+            .travel-tips{
+               display: flex;
+               flex-direction: column;
+               width: 100%;
+               height: 3400px;
+               column-gap:5px;
+               }
+
+.tt-con1, .tt-con2{
+               display:flex;
+               flex-direction:column;
+               width:300px;
+               height:1580px;
+               margin: 10px auto;
+        }
+        .tt-con2{
+            margin-top: -100px;
+        }
+
+.tt1{
+    
+}
+
+.tt1, .tt2, .tt3, .tt4, .tt5, .tt6, .tt7, .tt8{
+    width: 300px;
+    height: 1500px;
+    margin: auto;
+}
+
+
+section{
+    width: 100%;
+    height: 190px;
+}
+
+
+
+.travel-exp{
+    width: 100%;
+    height: 700px;
+    margin: auto;
+    margin-top: 60px;
+    padding: auto;
+}
+
+.teh{
+    margin-left: auto;
+}
+
+
+.tet1, .tet2, .tet3, .tet4, .tet5, .tet6, .tet7, .tet8{
+    font-size: 15px;
+    font-weight: bold;
+    gap:10px;
+    margin: auto;
+    }
+    
+    
+.tet1{
+    margin-left: -900px;
+}
+
+
+ .dark{
+   width:100%;
+   height: 300px;
+
+}
+
+.quote{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    
+}
+
+.bottom-class{
+                 display: flex;
+                 flex-direction: column;
+          width:100%;
+          height: 400px;
+}
+             
+.social-handle{
+            display: flex;
+            flex-direction: column;
+            height:250px;
+            width:150px;
+            margin-left:40px;
+            margin-top:30px;
+} 
+
+.last-txt{
+    margin: auto;
+}
+
+a{
+    margin: auto;
+    font-size: 15px;
+    margin-left: auto;
+    margin-top: 40px;
+}
+
+.email{
+    display: flex;
+    flex-direction: column;
+}
+
+.emailtx{
+    font-size: 5px;
+}
+
+span{
+    font-size: 5px;
+    margin: auto;
+}
+             
+ .travel-words{
+          width: 100%;
+          height:100px;
+          }
+       
+
+#tw1, #tw2, #tw3, #tw4, #tw5, #tw6, #tw7, #tw8, #tw9, #tw10, #tw11{
+    font-size: 5px;
+}
+    }
+
+          
+          
+          
+            @media all and (min-width:320px) and (max-width:375px) {
+                body {
+                    width: 100%;
+                }
+                
+                .travel1{
+                    width: 100%;
+                    height: 150vh;
+                }
+                
+                .logo{
+                  width: 50px;
+                  height: 50px;
+                }
+                
+                .buttons{
+                   display: none;
+    
+                }
+
+               .menu{
+                     margin-left: -70px;
+                     }
+
+               #abtb, #stb, #blb, #cob, #exb{
+                   display:none;
+                  }
+
+               .header{
+                   width: 100%;
+                   height: 80px;
+                   position: fixed;
+               }
+
+            .tslider{
+                width: 80vw;
+                height: 300vh;
+               margin:150px 30px  auto;
+               }
+
+            .tsl-holder{
+                width: 100%;
+                height: 100%;
+                margin: auto;
+                }
+
+.travel2, .travel3, .travel4, .travel5, .travel6, .travel7, .travel8, .travel9, .travel10, .travel11{
+             width: 100%;
+             height: 100%;
+         }
+
+
+
+#t2, #t3, #t4, #t5, #t6, #t7, #t8, #t9, #t10, #t11{
+    font-size: 30px;
+}
+
+p{
+    font-size: 15px;
+}
+
+.travel-tips{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 3400px;
+    column-gap:5px;
+}
+
+.tt-con1, .tt-con2{
+               display:flex;
+               flex-direction:column;
+               width:300px;
+               height:1580px;
+               margin: 10px auto;
+        }
+        .tt-con2{
+            margin-top: -100px;
+        }
+
+.tt1{
+    
+}
+
+.tt1, .tt2, .tt3, .tt4, .tt5, .tt6, .tt7, .tt8{
+    width: 250px;
+    height: 1800px;
+    margin: auto;
+}
+
+
+section{
+    width: 100%;
+    height: 250px;
+}
+
+
+
+.travel-exp{
+    width: 100%;
+    height: 700px;
+    margin: auto;
+    margin-top: 60px;
+    padding: auto;
+}
+
+.teh{
+    margin:30px 50px auto;
+}
+
+
+.tet1, .tet2, .tet3, .tet4, .tet5, .tet6, .tet7, .tet8{
+    font-size: 15px;
+    font-weight: bold;
+    gap:2px;
+    margin: auto;
+    }
+    
+    
+.tet1{
+    margin-left: -900px;
+}
+
+
+ .dark{
+   width:100%;
+   height: 300px;
+
+}
+
+.quote{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    
+}
+
+.bottom-class{
+                 display: flex;
+                 flex-direction: column;
+          width:100%;
+          height: 400px;
+}
+             
+.social-handle{
+            display: flex;
+            flex-direction: column;
+            height:250px;
+            width:150px;
+            margin-left:40px;
+            margin-top:30px;
+} 
+
+.last-txt{
+    margin: auto;
+}
+
+a{
+    margin: auto;
+    font-size: 15px;
+    margin-left: auto;
+    margin-top: 40px;
+}
+
+.email{
+    display: flex;
+    flex-direction: column;
+}
+
+.emailtx{
+    font-size: 5px;
+}
+
+span{
+    font-size: 5px;
+    margin: auto;
+}
+             
+ .travel-words{
+          width: 100%;
+          height:100px;
+          gap:30px;
+          }
+       
+
+#tw1, #tw2, #tw3, #tw4, #tw5, #tw6, #tw7, #tw8, #tw9, #tw10, #tw11{
+    font-size: 5px;
+    gap:25px;
+}
+

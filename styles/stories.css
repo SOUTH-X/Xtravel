@@ -1,0 +1,1107 @@
+body{
+    margin: 0;
+    padding: 0;
+    font: poppins;
+    box-sizing: border-box;
+    width: 1500px;
+    }
+    
+    #preloader {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+
+.loader {
+    border: 8px solid #f3f3f3;
+    border-top: 8px solid #3498db;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+    
+    .logo{
+    width: 120px;
+    height: 100px;
+    }
+    
+    .header{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 80px;
+    gap:250px;
+    position: fixed;
+    }
+    
+    .buttons{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    flex-shrink: 0;
+    }
+    
+    #abtb, #stb, #blb, #cob, #exb{
+    width: 80px;
+    height: 50px;
+    margin-left: 30px;
+    margin-top: 20px;
+    background-color: #808000;
+    color: yellow;
+    cursor: pointer;
+    }
+    
+    .sidebar{
+        display: none;
+        flex-direction: column;
+        position: fixed;
+        top: 0;
+        right: 0;
+        height: 100vh;
+        width: 250px;
+        z-index: 999;
+        background-color: ghostwhite;
+        backface-visibility:blur(20px);
+        box-shadow: 10px 0 10px rgba(0,0,0,0.1);
+        align-items: flex-start;
+        justify-content: flex-start;
+        list-style: none;
+    }
+    
+    nav li{
+        height: 150px;
+    }
+    
+    nav a{
+        height: 100%;
+        padding: 0 30px;
+        text-decoration: none;
+        align-items: center;
+        color: black;
+    }
+     
+     .stories1{
+    display: flex;
+    width: 100%;
+    height: 30vh;
+    background-color:skyblue;
+    background-image:url(/storage/emulated/0/DCIM/100PINT/Pins/1c4191c5287d6cdc72a30dcefc095518.jpg);
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-position: center;
+    }
+    
+    #pgn{
+        font-size: 80px;
+        color: white;
+        font-style: italic;
+        font-weight: bold;
+        text-align: center;
+        margin: auto;
+    }
+    
+    .stories2{
+        width: 100%;
+        height: 80vh;
+        display: flex;
+        flex-direction: column;
+        gap: 280px;
+    }
+    
+    .st2-con1{
+        display:flex;
+           flex-direction:row;
+           gap:45px;
+           height:250px;
+           width:1200px;
+           margin-left: auto;
+           margin-right: auto;
+    }
+    
+    .st2-con2{
+        display:flex;
+           flex-direction:row;
+           gap:45px;
+           height:250px;
+           width:1200px;
+           margin-left: auto;
+           margin-right: auto;
+    }
+    
+    .st1, .st2, .st3, .st4, .st5, .st6, .st7, .st8{
+        display: flex;
+        flex-direction: column;
+        height: 450px;
+        width: 550px;
+        background:repeating-conic-gradient(darkblue, white);
+        margin-top: 70px;
+        border-radius: 20px;
+        box-shadow: 1px 1px 5px 5px;
+        animation: appear linear alternate;
+    animation-timeline: scroll();
+    animation-range:entry 0% cover 40%;
+}
+
+@keyframes appear {
+    0%{
+        opacity: 0;
+        transform: scale(1,1);
+    }
+    
+    50%{
+        opacity: 0.5;
+        transform: scale(1.5,1.5);
+    }
+    
+    100%{
+        opacity: 1;
+        transform: scale(1,1);
+    }
+}
+    
+    #t1i, #t2i, #t3i, #t4i, #t5i, #t6i, #t7i, #t8i{
+        height: 300px;
+        width: 250px;
+        margin-top: -40px;
+        margin: auto;
+    }
+    
+    .st1, .st2, .st3, .st4, .st5, .st6, .st7, .st8, h{
+        font-size: 25px;
+        font-weight: bold;
+        color: blue;
+    }
+    
+    .st1, .st2, .st3, .st4, .st5, .st6, .st7, .st8  , p{
+        font-size: 15px;
+        color: black;
+        
+    }
+    
+      .stories3{
+        display:flex;
+        flex-direction:column;
+        width:100%;
+        height:35vh;
+        background-color: skyblue;
+        background:url(/storage/emulated/0/DCIM/100PINT/Pins/0365657f0900ab58d26916788ba85104.jpg);
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-blend-mode:multiply;
+        background-position:center;
+    }
+    
+    .st3h{
+        margin: auto;
+        background-color: skyblue;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        height: 65px;
+    }
+    
+    #st3h1, #st3h2, #st3h3, #st3h4{
+        margin: auto;
+        font-size: 70px;
+        line-height: 70px;
+    }
+    
+    #st3h1:first-child{
+        animation: anim 15s infinite alternate;
+    }
+    
+    
+    @keyframes anim {
+        0%{
+            margin-top: 0;
+        }
+        16%{
+            margin-top: -60px;
+        }
+        33%{
+            margin-top: -120px;
+        }
+        50%{
+            margin-top: -180px;
+        }
+        66%{
+            margin-top: -120px;
+        }
+        82%{
+            margin-top: -60px;
+        }
+        100%{
+            margin-top:0 ;
+        }
+    }
+    
+    .stories4{
+        width: 100%;
+        height: 75vh;
+        background:url(/storage/emulated/0/DCIM/100PINT/Pins/308c3aec689ae50055e3b3b4016363be.jpg);
+        background-size:cover;
+        background-repeat:no-repeat;
+        background-position:center center;
+        position:relative;
+        animation:change 10s infinite linear alternate;
+    }
+    
+    @keyframes change{
+        25%{
+            background: url(/storage/emulated/0/DCIM/100PINT/Pins/10c557ecf8f537383516d7df1123f053.jpg);
+            background-size:cover;
+        background-repeat:no-repeat;
+        background-position:center center;
+        position:relative;
+        }
+        50%{
+            background: url(/storage/emulated/0/DCIM/100PINT/Pins/ae74356256da105a54e97d2059458676.jpg);
+            background-size:cover;
+        background-repeat:no-repeat;
+        background-position:center center;
+        position:relative;
+        }
+        75%{
+            background: url(/storage/emulated/0/DCIM/100PINT/Pins/9221e9536d352c789f64fb5f9e5f0ccb.jpg);
+            background-size:cover;
+        background-repeat:no-repeat;
+        background-position:center center;
+        position:relative;
+        }
+        100%{
+            background: url(/storage/emulated/0/DCIM/100PINT/Pins/0c04e4360a1ce42e4c94ab37263be1f7.jpg);
+            background-size:cover;
+        background-repeat:no-repeat;
+        background-position:center center;
+        position:relative;
+        }
+    }
+    
+    .st4a{
+        display: flex;
+        flex-direction: row;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        gap:65px;
+        width: 1400px;
+        height: 500px;
+    }
+    
+    .st4a div{
+        width: 200px;
+        height: 400px;
+        background-color: blue;
+        display: flex;
+        margin: auto;
+        animation:scale 5s infinite alternate;
+    }
+    
+    @keyframes scale{
+        0%{
+            transform:scale(-1, -1)
+        }
+        25%{
+            transform:scale(0.5, 0.5)
+        }
+        50%{
+            transform:scale(1,1)
+        }
+        75%{
+            transform:scale(1.5, 1.5)
+        }
+        100%{
+            transform:scale(2, 2)
+        }
+    }
+    
+    .st4a h{
+        font-size:200px;
+        font-weight:bold;
+        color:white;
+        text-transform: uppercase;
+        margin:auto;
+    }
+     
+      .travel-words{
+                 display:flex;
+          flex-direction:row;
+          background: url('/storage/emulated/0/DCIM/100PINT/Pins/dd643c95c29702bdd4195d0b826b8a77.jpg');
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center center;
+          width: 100%;
+          height:280px;
+          align-items:space-between;
+          justify-content:space-between;
+          margin-top:40px;
+}
+
+#tw1, #tw2, #tw3, #tw4, #tw5, #tw6, #tw7, #tw8, #tw9, #tw10, #tw11{
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: auto;
+    animation: zoom 10s infinite linear alternate;
+}
+
+.last-div{
+    display: flex;
+    flex-direction: column;
+    padding: auto;
+    background-color: #E5D8B7;
+    margin-top: 30px;
+}
+
+.lad{
+    color:blueviolet;
+    margin: auto;
+    font-size: 30px;
+    }
+
+@keyframes zoom {
+    from{
+        transform: translateX(-300%);
+    }
+    
+    to{
+        margin-right: -30px;
+        gap:30px;
+    }
+}  
+
+@media all and (max-width:2560px) {
+      body{
+          width:100%;
+      }
+      
+      .header{
+    width: 100%;
+    height: 80px;
+    
+    }
+   
+    
+   
+     .stories1{
+    width: 100%;
+    }
+    
+    #pgn{
+        font-size: 50px;
+        margin-top: 80px;
+        
+    }
+    
+    .stories2{
+        width: 100%;
+        height: 200vh;
+    }
+    
+  
+      .stories3{
+        width:100%;
+        height:55vh;
+        }
+    
+    .st3h{
+        margin: auto;
+        background-color: skyblue;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        height: 65px;
+       
+    }
+    
+    #st3h1, #st3h2, #st3h3, #st3h4{
+        margin: auto;
+        font-size: 45px;
+        line-height: 70px;
+    }
+    
+  
+    
+    .stories4{
+        width: 100%;
+        height: 125vh;
+        margin-top: 50px;
+    }
+    
+    
+     
+      .travel-words{
+          width: 100%;
+          height:100px;
+}
+
+  }
+  
+  
+  
+  
+    @media (max-width:1440px) {
+        body{
+            width:100%;
+        }
+        
+         .header{
+    width: 100%;
+    height: 80px;
+    
+    }
+    
+     
+     .stories1{
+    width: 100%;
+    }
+    
+    #pgn{
+        font-size: 50px;
+        margin-top: 80px;
+        
+    }
+    
+    .stories2{
+        width: 100%;
+        height: 200vh;
+    }
+    
+  
+      .stories3{
+        width:100%;
+        height:55vh;
+        }
+    
+    .st3h{
+        margin: auto;
+        background-color: skyblue;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        height: 65px;
+       
+    }
+    
+    #st3h1, #st3h2, #st3h3, #st3h4{
+        margin: auto;
+        font-size: 45px;
+        line-height: 70px;
+    }
+    
+  
+    
+    .stories4{
+        width: 100%;
+        height: 125vh;
+        margin-top: 50px;
+    }
+    
+    
+     
+      .travel-words{
+          width: 100%;
+          height:100px;
+}
+
+
+    }
+    
+    
+    
+    
+      @media (max-width:1024px) {
+          body{
+              width: 100%;
+          }
+          
+           .
+    .header{
+    width: 100%;
+    height: 80px;
+    
+    }
+    
+   
+    
+    .hamburger {
+  display: block;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  height: 24px;
+  width: 32px;
+  margin-bottom: 20px;
+  margin-left: 60px;
+    }
+    
+    .hamburger .line {
+  display: block;
+  height: 2px;
+  background: #333;
+  border-radius: 1px;
+  margin: 6px 0;
+  transition: all 0.3s ease;
+     }
+     
+     .stories1{
+    width: 100%;
+    }
+    
+    #pgn{
+        font-size: 50px;
+        margin-top: 80px;
+        
+    }
+    
+    .stories2{
+        width: 100%;
+        height: 200vh;
+    }
+    
+    .st2-con1, .st2-con2{
+          gap:45px;
+          margin-left: 40px;
+    }
+    
+   
+    
+    
+    .st1, .st2, .st3, .st4, .st5, .st6, .st7, .st8{
+        height: 450px;
+        width: 210px;
+        margin-top: 70px;
+    }
+    
+    .st4, .st8{
+        margin-right:-60px ;
+    }
+    
+ 
+        #t1i, #t2i, #t3i, #t4i, #t5i, #t6i, #t7i, #t8i{
+        width: 100%;
+        margin-top: -40px;
+        margin: auto;
+    }
+    
+      .stories3{
+        width:100%;
+        height:55vh;
+        }
+    
+    .st3h{
+        margin: auto;
+        background-color: skyblue;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        height: 65px;
+       
+    }
+    
+    #st3h1, #st3h2, #st3h3, #st3h4{
+        margin: auto;
+        font-size: 45px;
+        line-height: 70px;
+    }
+    
+  
+    
+    .stories4{
+        width: 100%;
+        height: 75vh;
+        margin-top: 50px;
+    }
+    
+    
+    
+    .st4a{
+        width: 700px;
+        height: 600px;
+        gap:2px;
+    }
+    
+    .st4a div{
+        width:100px;
+        height:200px;
+        background-color: blue;
+        display: flex;
+        margin: auto;
+    }
+    
+    
+    .st4a h{
+        font-size:45px;
+        font-weight:bold;
+    }
+     
+      .travel-words{
+          width: 100%;
+          height:100px;
+}
+
+
+
+      }
+      
+      
+      
+        @media all and (min-width:500px) and (max-width:768px) {
+            body{
+                width: 100%;
+            }
+            
+             .logo{
+    width: 50px;
+    height: 50px;
+    }
+    
+    .header{
+    width: 100%;
+    height: 80px;
+    
+    }
+    
+    .buttons{
+    display: none;
+    }
+    
+    #abtb, #stb, #blb, #cob, #exb{
+    display: none;
+    }
+    
+    .hamburger {
+  display: block;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  height: 24px;
+  width: 32px;
+  margin-bottom: 20px;
+  margin-left: 60px;
+    }
+    
+    .hamburger .line {
+  display: block;
+  height: 2px;
+  background: #333;
+  border-radius: 1px;
+  margin: 6px 0;
+  transition: all 0.3s ease;
+     }
+     
+     .stories1{
+    width: 100%;
+    }
+    
+    #pgn{
+        font-size: 50px;
+        
+    }
+    
+    .stories2{
+        width: 100%;
+        height: 800vh;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .st2-con1, .st2-con2{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 270px;
+        left: 220px;
+        
+    }
+    
+    .st2-con2{
+        margin-top: 2500px;
+    }
+    
+    
+    .st1, .st2, .st3, .st4, .st5, .st6, .st7, .st8{
+        height: 450px;
+        width: 250px;
+        margin-top: 70px;
+    }
+    
+  
+    
+      .stories3{
+        width:100%;
+        height:55vh;
+        }
+    
+    .st3h{
+        margin: auto;
+        background-color: skyblue;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        height: 65px;
+       
+    }
+    
+    #st3h1, #st3h2, #st3h3, #st3h4{
+        margin: auto;
+        font-size: 35px;
+        line-height: 70px;
+    }
+    
+  
+    
+    .stories4{
+        width: 100%;
+        height: 75vh;
+        margin-top: 50px;
+    }
+    
+    
+    
+    .st4a{
+        width: 250px;
+        height: 500px;
+        gap:10px;
+    }
+    
+    .st4a div{
+        width: 80px;
+        height: 80px;
+        background-color: blue;
+        display: flex;
+        margin: auto;
+    }
+    
+    
+    .st4a h{
+        font-size:50px;
+        font-weight:bold;
+        color:white;
+        text-transform: uppercase;
+        margin:auto;
+    }
+     
+      .travel-words{
+          width: 100%;
+          height:100px;
+}
+
+#tw1, #tw2, #tw3, #tw4, #tw5, #tw6, #tw7, #tw8, #tw9, #tw10, #tw11{
+    font-size: 5px;
+}
+
+.last-div{
+    display: flex;
+    flex-direction: column;
+    padding: auto;
+    background-color: #E5D8B7;
+    margin-top: 30px;
+}
+
+.lad{
+    color:blueviolet;
+    margin: auto;
+    font-size: 25px;
+    }
+        }
+        
+        
+        
+          @media all and (min-width:375px) and (max-width:435.5px) {
+              body{
+                  width: 100%;
+              }
+              
+               .logo{
+    width: 50px;
+    height: 50px;
+    }
+    
+    .header{
+    width: 100%;
+    height: 80px;
+    
+    }
+    
+    .buttons{
+    display: none;
+    }
+    
+    #abtb, #stb, #blb, #cob, #exb{
+    display: none;
+    }
+    
+    
+     .stories1{
+    width: 100%;
+    }
+    
+    #pgn{
+        font-size: 50px;
+        
+    }
+    
+    .stories2{
+        width: 100%;
+        height: 800vh;
+        align-items: center;
+        padding: auto;
+        gap:2400px;
+    }
+    
+    .st2-con1, .st2-con2{
+        display: flex;
+        flex-direction: column;
+        margin:30px auto;
+        margin-left: 70px;
+    }
+    
+    .st2-con2{
+        margin-top: px;
+    }
+    
+    
+    .st1, .st2, .st3, .st4, .st5, .st6, .st7, .st8{
+        height: 450px;
+        width: 250px;
+        margin-top: 70px;
+    }
+    
+  
+    
+      .stories3{
+        width:100%;
+        height:55vh;
+        }
+    
+    .st3h{
+        margin: auto;
+        background-color: skyblue;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        height: 65px;
+       
+    }
+    
+    #st3h1, #st3h2, #st3h3, #st3h4{
+        margin: auto;
+        font-size: 15px;
+        line-height: 70px;
+    }
+    
+  
+    
+    .stories4{
+        width: 100%;
+        height: 75vh;
+        margin-top: 50px;
+    }
+    
+    
+    
+    .st4a{
+        width: 250px;
+        height: 500px;
+        gap:10px;
+    }
+    
+    .st4a div{
+        width: 80px;
+        height: 80px;
+        background-color: blue;
+        display: flex;
+        margin: auto;
+    }
+    
+    
+    .st4a h{
+        font-size:50px;
+        font-weight:bold;
+        color:white;
+        text-transform: uppercase;
+        margin:auto;
+    }
+     
+      .travel-words{
+          width: 100%;
+          height:100px;
+}
+
+#tw1, #tw2, #tw3, #tw4, #tw5, #tw6, #tw7, #tw8, #tw9, #tw10, #tw11{
+    font-size: 5px;
+}
+
+.last-div{
+    display: flex;
+    flex-direction: column;
+    padding: auto;
+    background-color: #E5D8B7;
+    margin-top: 30px;
+}
+
+.lad{
+    color:blueviolet;
+    margin: auto;
+    font-size: 10px;
+    }
+          }
+          
+          
+          
+            @media all and (min-width:320px) and (max-width:375px) {
+                body {
+                    width: 100%;
+                }
+                
+                 .logo{
+    width: 50px;
+    height: 50px;
+    }
+    
+    .header{
+    width: 100%;
+    height: 80px;
+    
+    }
+    
+    .buttons{
+    display: none;
+    }
+    
+    #abtb, #stb, #blb, #cob, #exb{
+    display: none;
+    }
+    
+    
+     .stories1{
+    width: 100%;
+    }
+    
+    #pgn{
+        font-size: 50px;
+        
+    }
+    
+    .stories2{
+        width: 100%;
+        height: 800vh;
+        align-items: center;
+        padding: auto;
+        gap:2400px;
+    }
+    
+    .st2-con1, .st2-con2{
+        display: flex;
+        flex-direction: column;
+        margin:30px auto;
+        margin-left: 30px;
+    }
+    
+    .st2-con2{
+        
+    }
+    
+    
+    .st1, .st2, .st3, .st4, .st5, .st6, .st7, .st8{
+        height: 450px;
+        width: 250px;
+        margin-top: 70px;
+    }
+    
+  
+    
+      .stories3{
+        width:100%;
+        height:55vh;
+        }
+    
+    .st3h{
+        margin: auto;
+        background-color: skyblue;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        height: 65px;
+       
+    }
+    
+    #st3h1, #st3h2, #st3h3, #st3h4{
+        margin: auto;
+        font-size: 15px;
+        line-height: 70px;
+    }
+    
+  
+    
+    .stories4{
+        width: 100%;
+        height: 75vh;
+        margin-top: 50px;
+    }
+    
+    
+    
+    .st4a{
+        width: 250px;
+        height: 500px;
+        gap:10px;
+    }
+    
+    .st4a div{
+        width: 80px;
+        height: 80px;
+        background-color: blue;
+        display: flex;
+        margin: auto;
+    }
+    
+    
+    .st4a h{
+        font-size:50px;
+        font-weight:bold;
+        color:white;
+        text-transform: uppercase;
+        margin:auto;
+    }
+     
+      .travel-words{
+          width: 100%;
+          height:100px;
+}
+
+#tw1, #tw2, #tw3, #tw4, #tw5, #tw6, #tw7, #tw8, #tw9, #tw10, #tw11{
+    font-size: 5px;
+}
+
+.last-div{
+    display: flex;
+    flex-direction: column;
+    padding: auto;
+    background-color: #E5D8B7;
+    margin-top: 30px;
+}
+
+.lad{
+    color:blueviolet;
+    margin: auto;
+    font-size: 10px;
+    }
+    
+            }
