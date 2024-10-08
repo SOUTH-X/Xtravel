@@ -175,28 +175,28 @@ body{
 }
 
 .travel3{
-    background: url(/storage/emulated/0/DCIM/100PINT/Pins/3d4f1c5effde5559b89f82f41140b3c9.jpg);
+    background: url(https://github.com/SOUTH-X/Xtravel/blob/8ba24f3af64057b4285b07b671f3c9ec4181a4fe/photos/travel2.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
 .travel4{
-    background: url(/storage/emulated/0/DCIM/100PINT/Pins/02aca064d8435324bde3d5a1faba2005.jpg);
+    background: url(https://github.com/SOUTH-X/Xtravel/blob/8ba24f3af64057b4285b07b671f3c9ec4181a4fe/photos/travel3.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
 .travel5{
-    background: url(/storage/emulated/0/DCIM/100PINT/Pins/595640707c0d205096972cf3fb6b2d40.jpg);
+    background: url(https://github.com/SOUTH-X/Xtravel/blob/8ba24f3af64057b4285b07b671f3c9ec4181a4fe/photos/travel4.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
 .travel6{
-    background: url(/storage/emulated/0/DCIM/100PINT/Pins/0365657f0900ab58d26916788ba85104.jpg);
+    background: url(https://github.com/SOUTH-X/Xtravel/blob/8ba24f3af64057b4285b07b671f3c9ec4181a4fe/photos/travel5.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -329,28 +329,28 @@ p{
 }
 
 .tt1{
-    background: url('/storage/emulated/0/DCIM/100PINT/Pins/6ab1c38bd2031e2ab1596b98844759c8.jpg');
+    background: url('https://github.com/SOUTH-X/Xtravel/blob/21df64ab7b9cd10d65bb8af73d08b0452f889fd2/photos/tt1.jpg');
     background-size: cover;
     background-position: center bottom;
     
 }
 
 .tt2{
-    background: url('/storage/emulated/0/DCIM/100PINT/Pins/736f8e73aa812c84e8c66f331b9b9b86.jpg');
+    background: url('https://github.com/SOUTH-X/Xtravel/blob/21df64ab7b9cd10d65bb8af73d08b0452f889fd2/photos/tt2.jpg');
     background-size: cover;
     background-position: center bottom;
     
 }
 
 .tt3{
-    background: url('/storage/emulated/0/DCIM/100PINT/Pins/9334df5e7529b234b910202d3e2330e0.jpg');
+    background: url('https://github.com/SOUTH-X/Xtravel/blob/21df64ab7b9cd10d65bb8af73d08b0452f889fd2/photos/tt3.jpg');
     background-size: cover;
     background-position: center bottom;
     
 }
 
 .tt4{
-    background: url('/storage/emulated/0/DCIM/100PINT/Pins/77ea35ab4524848654a9fec392b530e1.jpg');
+    background: url('https://github.com/SOUTH-X/Xtravel/blob/21df64ab7b9cd10d65bb8af73d08b0452f889fd2/photos/tt4.jpg');
     background-size: cover;
     background-position: center bottom;
     
@@ -358,28 +358,28 @@ p{
 
 .tt5{
    margin-left: 40px; 
-   background:url(/storage/emulated/0/DCIM/100PINT/Pins/34f6f40e8e5eb94abed26bd6a46752ff.jpg) ;
+   background:url(https://github.com/SOUTH-X/Xtravel/blob/21df64ab7b9cd10d65bb8af73d08b0452f889fd2/photos/tt5.jpg) ;
    background-size: cover;
     background-position: center bottom;
     
 }
 
 .tt6{
-    background: url('/storage/emulated/0/DCIM/100PINT/Pins/adfb4b3f4c533342b8388e95eef3b0d3.jpg');
+    background: url('https://github.com/SOUTH-X/Xtravel/blob/21df64ab7b9cd10d65bb8af73d08b0452f889fd2/photos/tt6.jpg');
     background-size: cover;
     background-position: center bottom;
     
 }
 
 .tt7{
-    background: url('/storage/emulated/0/DCIM/100PINT/Pins/85b852fe429f4f17ed1bfd3a6de20a75.jpg');
+    background: url('https://github.com/SOUTH-X/Xtravel/blob/21df64ab7b9cd10d65bb8af73d08b0452f889fd2/photos/tt7.jpg');
     background-size: cover;
     background-position: center bottom;
     
 }
 
 .tt8{
-    background: url('/storage/emulated/0/DCIM/100PINT/Pins/041940177dd1a8d18f287d1a9c81811b.jpg');
+    background: url('https://github.com/SOUTH-X/Xtravel/blob/21df64ab7b9cd10d65bb8af73d08b0452f889fd2/photos/tt8.jpg');
     background-size: cover;
     background-position: center bottom;
     
@@ -404,7 +404,7 @@ h1, h2, h3, h4, h5, h6, h7, h8{
     display: flex;
     flex-direction: row;
     background-color:#FFA07A ;
-    background: url('/storage/emulated/0/DCIM/100PINT/Pins/fa95986f2c408098531ca7cc78aee3a4.jpg');
+    background: url('https://github.com/SOUTH-X/Xtravel/blob/8ba24f3af64057b4285b07b671f3c9ec4181a4fe/photos/fa95986f2c408098531ca7cc78aee3a4.jpg');
     background-blend-mode: multiply;
     background-repeat: no-repeat;
     background-size: cover;
