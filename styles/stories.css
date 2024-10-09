@@ -240,28 +240,28 @@ body{
     
     @keyframes change{
         25%{
-            background: url(/storage/emulated/0/DCIM/100PINT/Pins/10c557ecf8f537383516d7df1123f053.jpg);
+            background: url(https://github.com/SOUTH-X/Xtravel/blob/313153d97fe3a7d5465553b51193fdfab6cd56ee/photos/6ad9cb735d2afaee1ff9fdf9118676c1.jpg?raw=true);
             background-size:cover;
         background-repeat:no-repeat;
         background-position:center center;
         position:relative;
         }
         50%{
-            background: url(/storage/emulated/0/DCIM/100PINT/Pins/ae74356256da105a54e97d2059458676.jpg);
+            background: url();
             background-size:cover;
         background-repeat:no-repeat;
         background-position:center center;
         position:relative;
         }
         75%{
-            background: url(/storage/emulated/0/DCIM/100PINT/Pins/9221e9536d352c789f64fb5f9e5f0ccb.jpg);
+            background: url(https://github.com/SOUTH-X/Xtravel/blob/313153d97fe3a7d5465553b51193fdfab6cd56ee/photos/6f295b1a21fc732c5c4abe3dab7ae274.jpg?raw=true);
             background-size:cover;
         background-repeat:no-repeat;
         background-position:center center;
         position:relative;
         }
         100%{
-            background: url(/storage/emulated/0/DCIM/100PINT/Pins/0c04e4360a1ce42e4c94ab37263be1f7.jpg);
+            background: url(https://github.com/SOUTH-X/Xtravel/blob/313153d97fe3a7d5465553b51193fdfab6cd56ee/photos/8aa8b607b03f7198dbffba7fe282ffa0.jpg?raw=true);
             background-size:cover;
         background-repeat:no-repeat;
         background-position:center center;
@@ -319,7 +319,7 @@ body{
       .travel-words{
                  display:flex;
           flex-direction:row;
-          background: url('/storage/emulated/0/DCIM/100PINT/Pins/dd643c95c29702bdd4195d0b826b8a77.jpg');
+          background: url('https://github.com/SOUTH-X/Xtravel/blob/313153d97fe3a7d5465553b51193fdfab6cd56ee/photos/37bd4dbacb041da589c9eb2416d85f2c.jpg?raw=true');
           background-repeat: no-repeat;
           background-size: cover;
           background-position: center center;
