@@ -154,7 +154,7 @@ body{
       .st1, .st2, .st3, .st4, .st5, .st6, .st7, .st8{
         display: flex;
         flex-direction: column;
-        height: 450px;
+        height: 750px;
         width: 550px;
         background:repeating-conic-gradient(darkblue, white);
         margin-top: 70px;
@@ -449,7 +449,7 @@ body{
       .st1, .st2, .st3, .st4, .st5, .st6, .st7, .st8{
         display: flex;
         flex-direction: column;
-        height: 450px;
+        height: 650px;
         width: 250px;
     }
     
@@ -558,7 +558,7 @@ body{
       .st1, .st2, .st3, .st4, .st5, .st6, .st7, .st8{
         display: flex;
         flex-direction: column;
-        height: 450px;
+        height: 650px;
         width: 250px;
     }
     
