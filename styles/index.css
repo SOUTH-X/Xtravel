@@ -495,7 +495,7 @@ h1, h2, h3, h4, h5, h6, h7, h8{
  .travel-words{
                  display:flex;
           flex-direction:row;
-          background: url('https://github.com/SOUTH-X/Xtravel/blob/313153d97fe3a7d5465553b51193fdfab6cd56ee/photos/37bd4dbacb041da589c9eb2416d85f2c.jpg');
+          background: url('https://github.com/SOUTH-X/Xtravel/blob/313153d97fe3a7d5465553b51193fdfab6cd56ee/photos/37bd4dbacb041da589c9eb2416d85f2c.jpg?raw=true');
           background-repeat: no-repeat;
           background-size: cover;
           background-position: center center;
@@ -527,7 +527,7 @@ h1, h2, h3, h4, h5, h6, h7, h8{
 
 @keyframes zoom {
     from{
-        transform: translateX(-300%);
+        transform: translate(-300%, -200%);
     }
     
     to{
@@ -615,7 +615,7 @@ h1, h2, h3, h4, h5, h6, h7, h8{
           .tslider{
     width: 80vw;
     height: 150vh;
-    margin: 80px auto;
+    margin: 170px auto;
 }
 
 .tsl-holder{
@@ -747,7 +747,9 @@ span{
  .travel-words{
           width: 100%;
           }
-    
+    #tw1, #tw2, #tw3, #tw4, #tw5, #tw6, #tw7, #tw8, #tw9, #tw10, #tw11{
+    font-size: 15px;
+    }
           
       }
       
