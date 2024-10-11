@@ -527,11 +527,11 @@ h1, h2, h3, h4, h5, h6, h7, h8{
 
 @keyframes zoom {
     from{
-        transform: translate(-300%, -200%);
+        transform: translateX(-300%);
     }
     
     to{
-        margin-right: -30px;
+        margin-right: -5px;
     }
 }  
 
