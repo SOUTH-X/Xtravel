@@ -154,7 +154,7 @@ body{
       .st1, .st2, .st3, .st4, .st5, .st6, .st7, .st8{
         display: flex;
         flex-direction: column;
-        height: 750px;
+        height: 550px;
         width: 550px;
         background:repeating-conic-gradient(darkblue, white);
         margin-top: 70px;
@@ -344,7 +344,7 @@ body{
       .st1, .st2, .st3, .st4, .st5, .st6, .st7, .st8{
         display: flex;
         flex-direction: column;
-        height: 450px;
+        height: 550px;
         width: 250px;
     }
     
@@ -431,7 +431,7 @@ body{
         height: 9000px;
         display: flex;
         flex-direction: column;
-        gap: 2000px;
+        gap: 2900px;
     }
     
       .ex2-con1, .ex2-con2, .ex2-con3, .ex2-con4{
@@ -540,7 +540,7 @@ body{
         height: 9000px;
         display: flex;
         flex-direction: column;
-        gap: 2000px;
+        gap: 2900px;
     }
     
       .ex2-con1, .ex2-con2, .ex2-con3, .ex2-con4{
