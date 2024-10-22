@@ -1,9 +1,13 @@
-body{
+*{
     margin: 0;
     padding: 0;
     font: poppins;
     box-sizing: border-box;
+}
+
+body{
     width: 1500px;
+    overflow-x: hidden;
     }
     
     #preloader {
