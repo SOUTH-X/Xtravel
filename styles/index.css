@@ -20,6 +20,7 @@ body{
     align-items: center;
     justify-content: center;
     z-index: 1000;
+     overflow: hidden;
 }
 
 .loader {
@@ -1161,7 +1162,7 @@ span{
         
         
         
-          @media all and (min-width:375px) and (max-width:435.5px) {
+          @media all and (min-width:375px) and (max-width:455px) {
               body{
                   width: 100%;
                   overflow-x:hidden;
